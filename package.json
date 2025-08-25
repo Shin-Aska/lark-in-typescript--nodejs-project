@@ -1,0 +1,25 @@
+{
+  "name": "lark-in-typescript--nodejs-project",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shin-Aska/lark-in-typescript--nodejs-project.git"
+  },
+  "keywords": [],
+  "author": "Richard Orilla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shin-Aska/lark-in-typescript--nodejs-project/issues"
+  },
+  "homepage": "https://github.com/Shin-Aska/lark-in-typescript--nodejs-project#readme",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}

@@ -1,0 +1,9 @@
+?start: sum
+
+?sum: product (("+" | "-") product)*
+?product: atom (("*" | "/") atom)*
+?atom: NUMBER | "-" atom | "(" sum ")"
+
+%import common.NUMBER
+%import common.WS
+%ignore WS
